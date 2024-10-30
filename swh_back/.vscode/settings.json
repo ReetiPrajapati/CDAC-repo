@@ -1,0 +1,27 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "demo1",
+            "name": "pgdemo",
+            "username": "postgres",
+            "password": "root",
+            "connectionTimeout": 120
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "db_conn",
+            "database": "final_cdac",
+            "username": "postgres",
+            "password": "4321",
+            "connectionTimeout": 200
+        }
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
+}
