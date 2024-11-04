@@ -1,54 +1,63 @@
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Admin/ViewController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Admin/ViewDao.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Admin/ViewUserAdmin.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Admin/webconfig6.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/ForgotPassword/PasswordResetController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/ForgotPassword/PasswordResetRequestController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/ForgotPassword/PasswordresetTokenService.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/ForgotPassword/SecurityConfig3.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/ForgotPassword/UserDao2.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/ForgotPassword/config.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Login/AuthController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Login/CaptchaConfig.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Login/CaptchaService.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Login/Person.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Login/UserLoginRequest.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Login/UserRepository.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Login/UserService.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Login/securityconfig2.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Login/webconfig.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/MentorService.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Query_Support/FAQ.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Query_Support/FAQController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Query_Support/FAQDao.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Query_Support/Query.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Query_Support/QueryController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Query_Support/QueryDao.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Query_Support/QuerySupportSecurityConfig.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Query_Support/WebConfig.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/AdminController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/AdminInitializer.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/AuthResponse.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/JwtProperties.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/JwtRequestFilter.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/JwtUtil.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/SecurityConfig.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/UserController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/UserDao.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/Registration/WebConfig2.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/SecurityConfig.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/StudentForm/StudentController2.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/StudentForm/StudentDao2.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/StudentForm/WebConfig5.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/SwhBackApplication.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/controller/MentorController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/controller/ProjectAssignmentController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/industry/Project.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/industry/ProjectController.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/industry/ProjectDao.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/industry/iwebconfig.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/model/MentorReg.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/model/Project.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/model/User.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/repository/MentorRegRepo.java
-/home/kshitiz/Downloads/swh_back/src/main/java/com/example/swh_back/repository/ProjectRepository.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Admin\ViewController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Admin\ViewDao.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Admin\ViewUserAdmin.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Admin\webconfig6.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\controller\DiscussionController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\controller\MentorController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\controller\ProjectAssignmentController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\DiscussionService.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\ForgotPassword\config.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\ForgotPassword\PasswordResetController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\ForgotPassword\PasswordResetRequestController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\ForgotPassword\PasswordresetTokenService.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\ForgotPassword\SecurityConfig3.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\ForgotPassword\UserDao2.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\industry\iwebconfig.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\industry\Project.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\industry\ProjectController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\industry\ProjectDao.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\AuthController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\CaptchaConfig.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\CaptchaService.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\Person.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\securityconfig2.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\UserLoginRequest.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\UserRepository.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\UserService.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\webconfig.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Login\webconfig1.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\MentorService.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\model\Discussion.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\model\EmailRecord.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\model\MentorReg.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\model\PersonalInfo.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\model\Project.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\model\User.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Query_Support\FAQ.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Query_Support\FAQController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Query_Support\FAQDao.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Query_Support\Query.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Query_Support\QueryController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Query_Support\QueryDao.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Query_Support\QuerySupportSecurityConfig.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Query_Support\WebConfig.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\AdminController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\AdminInitializer.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\AuthResponse.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\JwtProperties.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\JwtRequestFilter.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\jwtTokenUtil.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\JwtUtil.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\SecurityConfig.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\UserController.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\UserDao.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\Registration\WebConfig2.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\repository\DiscussionRepository.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\repository\EmailRepository.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\repository\MentorRegRepo.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\repository\ProjectRepository.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\SecurityConfig.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\StudentForm\StudentController2.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\StudentForm\StudentDao2.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\StudentForm\WebConfig5.java
+C:\Users\reeti\CDAC\reeti project\reeti project\swh_back\src\main\java\com\example\swh_back\SwhBackApplication.java

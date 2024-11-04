@@ -104,6 +104,10 @@ public class JwtRequestFilter extends OncePerRequestFilter {
             chain.doFilter(request, response);
             return;
         }
+        
+                    
+     
+
 
         if (request.getRequestURI().startsWith("/api/mentors/{name}")) {
             chain.doFilter(request, response);
